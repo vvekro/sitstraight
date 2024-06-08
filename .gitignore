@@ -1,0 +1,8 @@
+# folders
+__pychache__/
+
+# files
+.vim
+.vscode
+
+# extensions
