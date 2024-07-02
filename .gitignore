@@ -1,8 +1,12 @@
 # folders
 __pychache__/
+dataset/
 
 # files
 .vim
 .vscode
 
 # extensions
+
+# models
+yolov8*
