@@ -5,22 +5,9 @@ This project aims to create an application that raises alerts when it detects us
 
 ## Requirements
 
-- Python 3.x
+- Python 3.11
 - Jupyter Notebook or VSCode with Jupyter extension
 - [Ultralytics YOLOv8](https://github.com/ultralytics/yolov8)
-
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd <repository-directory>
-   ```
-
-2. Install required packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
 
 ## Usage
 
@@ -28,7 +15,7 @@ This project aims to create an application that raises alerts when it detects us
 Before running the live prediction script, you need to train the model using `posdet.ipynb`. This notebook contains the necessary code for model training and inferencing. Ensure that you have chosen appropriate training images as the model is sensitive to input data. 
 
 ### Step 2: Run the Live Prediction
-Once the model is trained, you can run `livepred.py` to start detecting keypoints in real-time. This script utilizes the trained model to analyze the user's posture.
+Once the model is trained, you can run `livepred.py` to start detecting keypoints in real-time. This script utilizes the trained model to analyze the user's posture by accessing the camera on the device.
 
 ```bash
 python livepred.py
