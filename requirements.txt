@@ -1,2 +1,4 @@
 ultralytics
 ipython
+matplotlib
+scikit-learn
